@@ -1,6 +1,6 @@
 # Avaliação Preditiva de Energias Renováveis e Radiação Solar
 
-**Autor:** Ian Rodrigues Martins (RM 570540)
+**Autor:** Ian Rodrigues Martins (RM 570540) , Gabriel del pizzo pintor ( RM570436)
 **Instituição:** FIAP — Ciência da Computação
 
 Este projeto aplica Machine Learning a dois problemas do domínio de energia, usando dados de duas APIs públicas (sem token). A avaliação principal foi feita em **Python (scikit-learn)**, e a atividade complementar foi feita no **Orange Data Mining**.
