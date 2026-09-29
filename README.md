@@ -65,7 +65,7 @@ O notebook roda na ordem das células: consulta as APIs, gera os dois CSVs, faz 
 
 ## Resultados — Orange Data Mining
 
-No Orange, a avaliação usou **validação cruzada com 5 folds** (estratificada na classificação). Como a divisão é diferente da usada no notebook, os números **não são diretamente comparáveis** com as tabelas acima. Capturas dos fluxos em `orange/`.
+No Orange, foram comparados **dois algoritmos por tarefa** (o notebook Python compara três algoritmos por tarefa), com **validação cruzada de 5 folds** (estratificada na classificação). Como a divisão é diferente da usada no notebook, os números **não são diretamente comparáveis** com as tabelas acima. Capturas em `orange/`.
 
 **Classificação** (validação cruzada, 5 folds estratificados, média sobre as classes)
 
@@ -73,7 +73,6 @@ No Orange, a avaliação usou **validação cruzada com 5 folds** (estratificada
 |---|---|---|---|---|---|
 | Logistic Regression | 0,807 | 0,815 | 0,807 | 0,805 | 0,886 |
 | kNN | 0,870 | 0,872 | 0,870 | 0,871 | 0,954 |
-| Random Forest | _preencher_ | _preencher_ | _preencher_ | _preencher_ | _preencher_ |
 
 Na matriz de confusão da Regressão Logística, a maior confusão é **Solar classificada como Eólica** (303 de 1200 solares, 25%).
 
@@ -81,9 +80,8 @@ Na matriz de confusão da Regressão Logística, a maior confusão é **Solar cl
 
 | Algoritmo | MAE (W/m²) | MSE ((W/m²)²) | RMSE (W/m²) | R² |
 |---|---|---|---|---|
-| Linear Regression | > 118 | _preencher_ | ≈ 151 | 0,652 |
+| Linear Regression | > 118 | ≈ 22.800 (RMSE²) | ≈ 151 | 0,652 |
 | Tree | 61,44 | ≈ 7.571 (RMSE²) | 87,01 | 0,885 |
-| Random Forest | _preencher_ | _preencher_ | _preencher_ | _preencher_ |
 
 ## Conclusões
 
